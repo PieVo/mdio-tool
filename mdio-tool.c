@@ -92,7 +92,7 @@ int main(int argc, char **argv)
 		if (errno != ENODEV)
 		fprintf(stderr, "SIOCGMIIPHY on '%s' failed: %s\n",
 			argv[2], strerror(errno));
-	//	return -1;
+		return -1;
 	}
 
 	if(argv[1][0] == 'r') {
