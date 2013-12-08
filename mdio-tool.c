@@ -3,6 +3,8 @@ mdio-tool allow for direct access to mdio registers in a network phy.
 
 Routines are based on mii-tool: http://freecode.com/projects/mii-tool
 
+mdio-tool comes with ABSOLUTELY NO WARRANTY; Use with care!
+
 Copyright (C) 2013 Pieter Voorthuijsen
 
 mdio-tool is free software: you can redistribute it and/or modify
