@@ -100,4 +100,11 @@ struct mii_data {
 /* Last register we need for show_basic_mii() */
 #define MII_BASIC_MAX          (MII_STAT1000+1)
 
+/* Register Control Register */
+#define MII_REGCR	0x0d
+
+/* Data register */
+#define MII_ADDAR	0x0e
+#define MII_ADDAR_DATA_NOINC	0xC000
+
 #endif /* _NETTOOLS_MII_H */
